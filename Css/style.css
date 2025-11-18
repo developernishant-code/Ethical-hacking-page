@@ -30,20 +30,20 @@ header .navbar-collapse {
     color: white;
 }
 
-.position {
+.img-wrapper{
     position: relative;
-    display: inline-block;
-    /* optional, layout ke hisaab se */
+    width: fit-content;
 }
-
-
-.position-2 {
+.bg-image{
+    display: block;
+}
+.position-2{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* adjust for center ya desired overlap */
 }
+
 .mymargin{
     margin-top: 40% ;
 }
